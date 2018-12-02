@@ -5,6 +5,7 @@ type Doller struct {
 }
 
 func (d *Doller) times(t int) {
+	d.amount *= t
 }
 
 func main() {}
